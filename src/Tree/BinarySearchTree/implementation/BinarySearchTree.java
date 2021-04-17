@@ -65,5 +65,6 @@ public class BinarySearchTree<E extends Comparable<E>> {
                 temp = temp.getRight();
             }
         }
+        return response;
     }
 }
