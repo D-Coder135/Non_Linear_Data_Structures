@@ -9,4 +9,8 @@ package Tree.BinarySearchTree.implementation;
 
 public class BinarySearchTree<E extends Comparable<E>> {
     private Node<E> root;
+
+    public Node<E> getRoot() {
+        return root;
+    }
 }
