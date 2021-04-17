@@ -46,9 +46,9 @@ public class BinarySearchTree<E extends Comparable<E>> {
 
     public void inOrderTraversal(Node<E> node) {
         if (node != null) {
-            inOrderTraversal(node.getLeft());
-            System.out.println(node.getData() + ", ");
-            inOrderTraversal(node.getRight());
+            inOrderTraversal(node.getLeft()); // process the left subtree
+            System.out.println(node.getData() + ", "); // printA the node data
+            inOrderTraversal(node.getRight()); // then process the right subtree
         }
     }
 }
