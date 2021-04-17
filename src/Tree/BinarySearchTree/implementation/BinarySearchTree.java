@@ -17,7 +17,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     public void insert(E element) {
         Node<E> node = new Node<>(element);
         if (isEmpty()) {
-
+            root = node;
         }
     }
 }
