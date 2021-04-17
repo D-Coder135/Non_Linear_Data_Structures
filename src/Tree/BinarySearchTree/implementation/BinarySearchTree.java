@@ -13,4 +13,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
     public Node<E> getRoot() {
         return root;
     }
+
+    public void insert(E element) {
+
+    }
 }
