@@ -45,6 +45,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     public void inOrderTraversal(Node<E> node) {
+        if (node != null) {
 
+        }
     }
 }
