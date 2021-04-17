@@ -18,7 +18,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
         Node<E> node = new Node<>(element);
         if (isEmpty()) {
             root = node;
-        } else {
+        } else { // Traverse and reach to that node where the new node will be added and also keep the reference of the
+            // parent node.
             Node<E> temp = root;
             Node<E> parent = null;
             while (temp != null) {
