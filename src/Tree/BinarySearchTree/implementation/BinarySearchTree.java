@@ -56,7 +56,9 @@ public class BinarySearchTree<E extends Comparable<E>> {
         boolean response = false;
         Node<E> temp = root;
         while (temp != null) {
+            if (element.compareTo(temp.getData()) == 0) {
 
+            }
         }
     }
 }
