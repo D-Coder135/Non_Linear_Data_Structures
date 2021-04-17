@@ -1,4 +1,4 @@
 package Tree.BinarySearchTree.implementation;
 
-public class Node<E> {
+public class Node<E extends Comparable<E>> {
 }
