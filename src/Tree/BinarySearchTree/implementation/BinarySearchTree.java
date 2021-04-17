@@ -25,5 +25,6 @@ public class BinarySearchTree<E extends Comparable<E>> {
         if (root == null) {
             return true;
         }
+        return false;
     }
 }
