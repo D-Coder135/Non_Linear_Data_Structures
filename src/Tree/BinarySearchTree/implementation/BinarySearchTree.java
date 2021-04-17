@@ -30,7 +30,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
                 }
             }
             if (element.compareTo(parent.getData()) <= 0) {
-
+                parent.setLeft(node);
             }
         }
     }
