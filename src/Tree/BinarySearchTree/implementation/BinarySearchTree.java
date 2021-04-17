@@ -20,4 +20,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
             root = node;
         }
     }
+
+    private boolean isEmpty() {
+    }
 }
