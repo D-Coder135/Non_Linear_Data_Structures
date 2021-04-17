@@ -21,6 +21,9 @@ public class BinarySearchTree<E extends Comparable<E>> {
         } else {
             Node<E> temp = root;
             Node<E> parent = null;
+            while (temp != null) {
+
+            }
         }
     }
 
