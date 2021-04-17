@@ -30,6 +30,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
                     temp = temp.getRight();
                 }
             }
+            // Now, check weather the value of the element is less or greater than the value of the parent node.
+            // As per that, add the new node to the left or right respectively.
             if (element.compareTo(parent.getData()) <= 0) {
                 parent.setLeft(node);
             } else {
