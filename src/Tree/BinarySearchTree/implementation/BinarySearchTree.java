@@ -51,4 +51,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
             inOrderTraversal(node.getRight()); // then process the right subtree
         }
     }
+
+    public boolean searchElement(E element) {
+
+    }
 }
