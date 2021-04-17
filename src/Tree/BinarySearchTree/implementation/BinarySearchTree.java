@@ -18,6 +18,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
         Node<E> node = new Node<>(element);
         if (isEmpty()) {
             root = node;
+        } else {
+
         }
     }
 
