@@ -25,6 +25,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
                 parent = temp;
                 if (element.compareTo(temp.getData()) <= 0) {
                     temp = temp.getLeft();
+                } else {
+                    temp = temp.getRight();
                 }
             }
         }
