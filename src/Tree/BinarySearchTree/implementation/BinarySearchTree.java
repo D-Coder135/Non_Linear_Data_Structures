@@ -43,4 +43,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
     private boolean isEmpty() {
         return root == null;
     }
+
+    public void inOrderTraversal(Node<E> node) {
+
+    }
 }
