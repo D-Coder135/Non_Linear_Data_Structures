@@ -60,7 +60,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
                 response = true;
                 break;
             } else if (element.compareTo(temp.getData()) < 0) {
-
+                temp = temp.getLeft();
             }
         }
     }
