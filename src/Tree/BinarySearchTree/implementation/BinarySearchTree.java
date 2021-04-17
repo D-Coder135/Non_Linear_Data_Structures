@@ -55,5 +55,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
     public boolean searchElement(E element) {
         boolean response = false;
         Node<E> temp = root;
+        while (temp != null) {
+
+        }
     }
 }
