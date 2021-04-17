@@ -7,5 +7,5 @@
 
 package Tree.BinarySearchTree.implementation;
 
-public class BinarySearchTree {
+public class BinarySearchTree<E> {
 }
