@@ -22,9 +22,6 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     private boolean isEmpty() {
-        if (root == null) {
-            return true;
-        }
-        return false;
+        return root == null;
     }
 }
