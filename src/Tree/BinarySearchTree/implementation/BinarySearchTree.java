@@ -134,6 +134,9 @@ public class BinarySearchTree<E extends Comparable<E>> {
         }
     }
 
+    private Node<E> getSuccessor(Node<E> temp) {
+    }
+
     private boolean hasRightSubTree(Node<E> temp) {
         boolean response = false;
         if (temp.getLeft() == null && temp.getRight() != null) {
