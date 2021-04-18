@@ -74,6 +74,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
         while (temp != null) {
             if (deletingElement.compareTo(temp.getData()) == 0) {
                 break;
+            } else {
+
             }
         }
     }
