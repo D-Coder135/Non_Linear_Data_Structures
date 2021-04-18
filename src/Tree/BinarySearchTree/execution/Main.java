@@ -18,5 +18,6 @@ public class Main {
         binarySearchTree.insert(50);
         binarySearchTree.insert(42);
         binarySearchTree.inOrderTraversal(binarySearchTree.getRoot());
+        System.out.println();
     }
 }
