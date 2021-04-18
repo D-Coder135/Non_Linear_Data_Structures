@@ -22,5 +22,6 @@ public class Main {
         binarySearchTree.delete(55);
         binarySearchTree.inOrderTraversal(binarySearchTree.getRoot());
         System.out.println();
+        binarySearchTree.searchElement(23);
     }
 }
