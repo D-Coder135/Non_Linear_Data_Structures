@@ -67,4 +67,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
         }
         return response;
     }
+
+    public void delete(E deletingElement) {
+
+    }
 }
