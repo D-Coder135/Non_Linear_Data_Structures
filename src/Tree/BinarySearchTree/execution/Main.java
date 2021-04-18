@@ -7,8 +7,10 @@
 
 package Tree.BinarySearchTree.execution;
 
+import Tree.BinarySearchTree.implementation.BinarySearchTree;
+
 public class Main {
     public static void main(String[] args) {
-
+        BinarySearchTree<Integer> binarySearchTree = new BinarySearchTree<>();
     }
 }
