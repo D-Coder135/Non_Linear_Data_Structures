@@ -130,7 +130,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
                 }
             }
         } else {
-
+            System.err.println("Cannot delete the element!");
         }
     }
 }
