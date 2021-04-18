@@ -114,6 +114,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
                         parent.setRight(temp.getRight());
                     }
                 }
+            } else {
+
             }
         }
     }
