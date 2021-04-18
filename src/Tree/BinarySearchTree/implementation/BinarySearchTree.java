@@ -153,8 +153,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     private boolean hasLeftSubTree(Node<E> temp) {
-        boolean response = temp.getLeft() != null && temp.getRight() == null;
-        return response;
+        return temp.getLeft() != null && temp.getRight() == null;
     }
 
     private boolean isLeafNode(Node<E> temp) {
