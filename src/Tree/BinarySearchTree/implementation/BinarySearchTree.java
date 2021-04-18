@@ -134,7 +134,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
         }
     }
 
-    private Node<E> getSuccessor(Node<E> temp) {
+    private Node<E> getSuccessor(Node<E> node) {
         Node<E> responseNode = null;
     }
 
