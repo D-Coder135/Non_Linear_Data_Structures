@@ -69,6 +69,6 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     public void delete(E deletingElement) {
-
+        Node<E> temp = root;
     }
 }
