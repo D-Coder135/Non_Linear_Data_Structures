@@ -135,6 +135,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     private boolean hasRightSubTree(Node<E> temp) {
+        boolean response = false;
     }
 
     private boolean hasLeftSubTree(Node<E> temp) {
