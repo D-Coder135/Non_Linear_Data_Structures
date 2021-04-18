@@ -116,6 +116,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
                 }
             } else {
                 Node<E> successor = getSuccessor(temp);
+                delete(successor.getData());
             }
         }
     }
