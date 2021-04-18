@@ -85,7 +85,13 @@ public class BinarySearchTree<E extends Comparable<E>> {
         }
         if (temp != null) {
             if (isLeafNode(temp)) {
-
+                if (parent == null) {
+                    root = null;
+                } else {
+                    if (deletingElement.compareTo(parent.getData()) < 0) {
+                        parent.setLeft(null);
+                    }
+                }
             }
         }
     }
