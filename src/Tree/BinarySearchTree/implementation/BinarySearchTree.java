@@ -140,6 +140,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
         while (temp.getLeft() != null) {
             temp = temp.getLeft();
         }
+        responseNode = temp;
     }
 
     private boolean hasRightSubTree(Node<E> temp) {
