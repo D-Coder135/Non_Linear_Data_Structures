@@ -117,6 +117,8 @@ public class BinarySearchTree<E extends Comparable<E>> {
             } else {
                 Node<E> successor = getSuccessor(temp);
                 delete(successor.getData());
+                successor.setLeft(temp.getLeft());
+                successor.setRight(temp.getRight());
             }
         }
     }
