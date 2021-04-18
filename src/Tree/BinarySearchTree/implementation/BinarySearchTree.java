@@ -98,7 +98,9 @@ public class BinarySearchTree<E extends Comparable<E>> {
                 if (parent == null) {
                     root = root.getLeft();
                 } else {
+                    if (deletingElement.compareTo(parent.getData()) < 0) {
 
+                    }
                 }
             }
         }
