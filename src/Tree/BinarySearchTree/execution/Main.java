@@ -15,6 +15,8 @@ public class Main {
         binarySearchTree.insert(75);
         binarySearchTree.insert(23);
         binarySearchTree.insert(55);
+        binarySearchTree.insert(50);
+
 
     }
 }
