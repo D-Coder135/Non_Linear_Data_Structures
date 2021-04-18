@@ -20,5 +20,6 @@ public class Main {
         binarySearchTree.inOrderTraversal(binarySearchTree.getRoot());
         System.out.println();
         binarySearchTree.delete(55);
+        binarySearchTree.inOrderTraversal(binarySearchTree.getRoot());
     }
 }
