@@ -135,7 +135,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     private Node<E> getSuccessor(Node<E> node) {
-        Node<E> responseNode = null;
+        Node<E> responseNode;
         Node<E> temp = node.getRight();
         while (temp.getLeft() != null) {
             temp = temp.getLeft();
