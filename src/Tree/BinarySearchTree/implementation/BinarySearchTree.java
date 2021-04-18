@@ -120,7 +120,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
                 successor.setLeft(temp.getLeft());
                 successor.setRight(temp.getRight());
                 if (parent == null) {
-                    
+                    root = successor;
                 }
             }
         }
