@@ -105,7 +105,11 @@ public class BinarySearchTree<E extends Comparable<E>> {
                     }
                 }
             } else if (hasRightSubTree(temp)) {
+                if (parent == null) {
+                    root = root.getRight();
+                } else {
 
+                }
             }
         }
     }
