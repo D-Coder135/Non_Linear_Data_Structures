@@ -123,7 +123,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
                     root = successor;
                 } else {
                     if (deletingElement.compareTo(parent.getData()) < 0) {
-
+                        parent.setLeft(successor);
                     }
                 }
             }
