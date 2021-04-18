@@ -14,5 +14,7 @@ public class Main {
         BinarySearchTree<Integer> binarySearchTree = new BinarySearchTree<>();
         binarySearchTree.insert(75);
         binarySearchTree.insert(23);
+        binarySearchTree.insert(55);
+
     }
 }
