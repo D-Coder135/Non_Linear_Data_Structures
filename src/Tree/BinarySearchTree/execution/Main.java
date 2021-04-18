@@ -23,5 +23,6 @@ public class Main {
         binarySearchTree.inOrderTraversal(binarySearchTree.getRoot());
         System.out.println();
         var result = binarySearchTree.searchElement(23);
+        System.out.println(result);
     }
 }
