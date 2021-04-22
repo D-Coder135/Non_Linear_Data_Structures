@@ -14,14 +14,14 @@ public class AVLTree<E extends Comparable<E>> {
         return root;
     }
 
-    public E maxHeight(E leftSubtree, E rightSubtree) {
-        return leftSubtree.compareTo(rightSubtree) >= 0 ? leftSubtree : rightSubtree;
+    public int maxHeight(int leftSubtree, int rightSubtree) {
+        return leftSubtree > 0 ? leftSubtree : rightSubtree;
     }
 
     public Node<E> insert(E data, Node<E> tempRoot) {
         if (tempRoot == null) {
             tempRoot = new Node<>(data);
-        } else if (data.compareTo(tempRoot.getData()) <= 0) {
+        } else if (data.compareTo(tempRoot.getData()) < 0) {
             tempRoot.setLeft(insert(data, tempRoot.getLeft()));
             if (calculateHeight(tempRoot.getLeft()) - calculateHeight(tempRoot.getRight()) == 2) {
                 if (data.compareTo(tempRoot.getLeft().getData()) < 0) {
