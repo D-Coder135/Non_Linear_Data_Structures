@@ -75,4 +75,8 @@ public class AVLTree<E extends Comparable<E>> {
     private int calculateHeight(Node<E> node) {
         return node == null ? -1 : node.getHeight();
     }
+
+    public void inOrderTraversal(Node<E> tempRoot) {
+
+    }
 }
