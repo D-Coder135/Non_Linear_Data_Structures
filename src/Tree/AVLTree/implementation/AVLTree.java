@@ -18,11 +18,10 @@ public class AVLTree<E extends Comparable<E>> {
         return leftSubtree.compareTo(rightSubtree) >= 0 ? leftSubtree : rightSubtree;
     }
 
-    public E insert(E data, Node<E> tempRoot) {
+    public Node<E> insert(E data, Node<E> tempRoot) {
         if (tempRoot == null) {
             tempRoot = new Node<>(data);
         } else if (data.compareTo(tempRoot.getData()) <= 0) {
-
         }
     }
 }
