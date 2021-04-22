@@ -13,4 +13,8 @@ public class AVLTree<E> {
     public Node<E> getRoot() {
         return root;
     }
+
+    public int maxHeight(int leftSubtree, int rightSubtree) {
+
+    }
 }
