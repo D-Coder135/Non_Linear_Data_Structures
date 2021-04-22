@@ -22,6 +22,7 @@ public class AVLTree<E extends Comparable<E>> {
         if (tempRoot == null) {
             tempRoot = new Node<>(data);
         } else if (data.compareTo(tempRoot.getData()) <= 0) {
+            tempRoot.setLeft(insert(data, tempRoot.getLeft()));
         }
     }
 }
