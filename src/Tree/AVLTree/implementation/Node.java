@@ -11,4 +11,5 @@ public class Node<E> {
     private int data;
     private int height;
     private Node<E> left;
+    private Node<E> right;
 }
