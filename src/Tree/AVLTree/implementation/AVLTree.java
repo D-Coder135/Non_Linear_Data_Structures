@@ -49,7 +49,12 @@ public class AVLTree<E extends Comparable<E>> {
         return leftLeftRotation(currentDisabledNode);
     }
 
-    private Node<E> leftLeftRotation(Node<E> node) {
+    private Node<E> leftLeftRotation(Node<E> currentDisabledNode) {
+        Node<E> newRoot = currentDisabledNode.getRight();
+        currentDisabledNode.setRight(newRoot.getLeft());
+        newRoot.setLeft(currentDisabledNode);
+        currentDisabledNode.setHeight(maxHeight(calculateHeight(currentDisabledNode.getLeft()), calculateHeight(currentDisabledNode.getRight())) + 1);
+        newRoot.setHeight(maxHeight(calculateHeight(newRoot.getLeft()), currentDisabledNode.getHeight()) + 1);
         return null;
     }
 
