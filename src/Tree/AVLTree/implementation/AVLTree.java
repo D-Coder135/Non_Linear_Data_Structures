@@ -44,7 +44,8 @@ public class AVLTree<E extends Comparable<E>> {
         return tempRoot;
     }
 
-    private Node<E> doubleRotationWithRightChild(Node<E> node) {
+    private Node<E> doubleRotationWithRightChild(Node<E> currentDisabledNode) {
+        currentDisabledNode.setRight(rightRightRotation(currentDisabledNode.getRight()));
         return null;
     }
 
