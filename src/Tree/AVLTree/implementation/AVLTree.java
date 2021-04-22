@@ -45,7 +45,7 @@ public class AVLTree<E extends Comparable<E>> {
     }
 
     private Node<E> rightRightRotation(Node<E> tempRoot) {
-
+        return null;
     }
 
     private int calculateHeight(Node<E> node) {
