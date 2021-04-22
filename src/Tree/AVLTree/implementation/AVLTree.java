@@ -17,4 +17,8 @@ public class AVLTree<E extends Comparable<E>> {
     public E maxHeight(E leftSubtree, E rightSubtree) {
         return leftSubtree.compareTo(rightSubtree) >= 0 ? leftSubtree : rightSubtree;
     }
+
+    public E insert(E data, Node<E> tempRoot) {
+
+    }
 }
