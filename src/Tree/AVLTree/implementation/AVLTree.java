@@ -14,7 +14,7 @@ public class AVLTree<E> {
         return root;
     }
 
-    public int maxHeight(int leftSubtree, int rightSubtree) {
+    public E maxHeight(E leftSubtree, E rightSubtree) {
 
     }
 }
