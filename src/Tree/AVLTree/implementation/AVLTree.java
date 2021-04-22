@@ -64,7 +64,7 @@ public class AVLTree<E extends Comparable<E>> {
         newRoot.setRight(currentDisabledNode);
         currentDisabledNode.setHeight(maxHeight(calculateHeight(currentDisabledNode.getLeft()), calculateHeight(currentDisabledNode.getRight())) + 1);
         newRoot.setHeight(maxHeight(calculateHeight(newRoot.getLeft()), currentDisabledNode.getHeight()) + 1);
-        return null;
+        return newRoot;
     }
 
     private int calculateHeight(Node<E> node) {
