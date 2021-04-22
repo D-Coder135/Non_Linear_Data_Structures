@@ -40,5 +40,6 @@ public class AVLTree<E extends Comparable<E>> {
                 }
             }
         }
+        tempRoot.setHeight(maxHeight(calculateHeight(tempRoot.getLeft()), calculateHeight(tempRoot.getRight())) + 1);
     }
 }
