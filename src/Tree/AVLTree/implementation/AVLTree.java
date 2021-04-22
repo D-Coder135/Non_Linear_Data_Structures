@@ -8,4 +8,5 @@
 package Tree.AVLTree.implementation;
 
 public class AVLTree<E> {
+    private Node<E> root;
 }
