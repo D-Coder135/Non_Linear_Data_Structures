@@ -44,7 +44,7 @@ public class AVLTree<E extends Comparable<E>> {
         return tempRoot;
     }
 
-    private E calculateHeight(Node<E> node) {
-
+    private int calculateHeight(Node<E> node) {
+        return node == null ? -1 : node.getHeight();
     }
 }
