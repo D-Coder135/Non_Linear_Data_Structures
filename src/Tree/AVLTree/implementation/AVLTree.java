@@ -30,6 +30,8 @@ public class AVLTree<E extends Comparable<E>> {
                     tempRoot = doubleRotationWithLeftChild(tempRoot);
                 }
             }
+        } else {
+
         }
     }
 }
