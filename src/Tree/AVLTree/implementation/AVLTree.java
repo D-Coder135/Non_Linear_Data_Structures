@@ -20,7 +20,7 @@ public class AVLTree<E extends Comparable<E>> {
 
     public E insert(E data, Node<E> tempRoot) {
         if (tempRoot == null) {
-
+            tempRoot = new Node<>(data);
         }
     }
 }
