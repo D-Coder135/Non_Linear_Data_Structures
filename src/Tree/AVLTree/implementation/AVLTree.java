@@ -14,6 +14,10 @@ public class AVLTree<E extends Comparable<E>> {
         return root;
     }
 
+    public void setRoot(Node<E> root) {
+        this.root = root;
+    }
+
     public int maxHeight(int leftSubtree, int rightSubtree) {
         return leftSubtree > 0 ? leftSubtree : rightSubtree;
     }
