@@ -7,7 +7,7 @@
 
 package Tree.AVLTree.implementation;
 
-public class AVLTree<E> {
+public class AVLTree<E extends Comparable<E>> {
     private Node<E> root;
 
     public Node<E> getRoot() {
