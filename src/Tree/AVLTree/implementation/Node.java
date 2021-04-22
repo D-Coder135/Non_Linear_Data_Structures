@@ -10,5 +10,5 @@ package Tree.AVLTree.implementation;
 public class Node<E> {
     private int data;
     private int height;
-    private Node left;
+    private Node<E> left;
 }
