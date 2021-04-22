@@ -7,5 +7,5 @@
 
 package Tree.AVLTree.implementation;
 
-public class AVLTree {
+public class AVLTree<E> {
 }
