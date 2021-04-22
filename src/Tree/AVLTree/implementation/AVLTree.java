@@ -31,7 +31,7 @@ public class AVLTree<E extends Comparable<E>> {
                 }
             }
         } else {
-
+            tempRoot.setRight(insert(data, tempRoot.getRight()));
         }
     }
 }
