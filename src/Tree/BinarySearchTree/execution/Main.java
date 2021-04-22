@@ -19,7 +19,7 @@ public class Main {
         binarySearchTree.insert(42);
         binarySearchTree.inOrderTraversal(binarySearchTree.getRoot());
         System.out.println();
-        binarySearchTree.delete(55);
+        binarySearchTree.delete(75);
         binarySearchTree.inOrderTraversal(binarySearchTree.getRoot());
         System.out.println();
         var result = binarySearchTree.searchElement(23);
