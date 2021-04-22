@@ -17,5 +17,6 @@ public class Node<E> {
         this.data = data;
         height = 0;
         left = null;
+        right = null;
     }
 }
