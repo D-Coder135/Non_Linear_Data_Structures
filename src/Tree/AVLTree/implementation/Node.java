@@ -7,7 +7,7 @@
 
 package Tree.AVLTree.implementation;
 
-public class Node {
+public class Node<E> {
     private int data;
     private int height;
     private Node left;
