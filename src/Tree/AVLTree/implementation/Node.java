@@ -9,4 +9,5 @@ package Tree.AVLTree.implementation;
 
 public class Node {
     private int data;
+    private int height;
 }
