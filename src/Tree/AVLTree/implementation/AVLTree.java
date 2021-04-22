@@ -24,7 +24,9 @@ public class AVLTree<E extends Comparable<E>> {
         } else if (data.compareTo(tempRoot.getData()) <= 0) {
             tempRoot.setLeft(insert(data, tempRoot.getLeft()));
             if (calculateHeight(tempRoot.getLeft()) - calculateHeight(tempRoot.getRight()) == 2) {
+                if (data.compareTo(tempRoot.getLeft().getData()) < 0) {
 
+                }
             }
         }
     }
