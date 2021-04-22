@@ -12,4 +12,8 @@ public class Node<E> {
     private int height;
     private Node<E> left;
     private Node<E> right;
+
+    public Node(int data) {
+        this.data = data;
+    }
 }
