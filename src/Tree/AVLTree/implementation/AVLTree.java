@@ -27,7 +27,7 @@ public class AVLTree<E extends Comparable<E>> {
                 if (data.compareTo(tempRoot.getLeft().getData()) < 0) {
                     tempRoot = rightRightRotation(tempRoot);
                 } else {
-
+                    tempRoot = doubleRotationWithLeftChild(tempRoot);
                 }
             }
         }
