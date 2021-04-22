@@ -44,6 +44,10 @@ public class AVLTree<E extends Comparable<E>> {
         return tempRoot;
     }
 
+    private Node<E> leftLeftRotation(Node<E> node) {
+
+    }
+
     private Node<E> doubleRotationWithLeftChild(Node<E> node) {
         return null;
     }
