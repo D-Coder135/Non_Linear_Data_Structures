@@ -78,7 +78,9 @@ public class AVLTree<E extends Comparable<E>> {
 
     public void inOrderTraversal(Node<E> tempRoot) {
         if (tempRoot != null) {
-
+            inOrderTraversal(tempRoot.getLeft());
+            System.out.println(tempRoot.getData());
+            inOrderTraversal(tempRoot.getRight());
         }
     }
 }
