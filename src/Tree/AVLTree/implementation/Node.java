@@ -8,23 +8,23 @@
 package Tree.AVLTree.implementation;
 
 public class Node<E extends Comparable<E>> {
-    private int data;
+    private E data;
     private int height;
     private Node<E> left;
     private Node<E> right;
 
-    public Node(int data) {
+    public Node(E data) {
         this.data = data;
         height = 0;
         left = null;
         right = null;
     }
 
-    public int getData() {
+    public E getData() {
         return data;
     }
 
-    public void setData(int data) {
+    public void setData(E data) {
         this.data = data;
     }
 
