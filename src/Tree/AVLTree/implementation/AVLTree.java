@@ -77,6 +77,8 @@ public class AVLTree<E extends Comparable<E>> {
     }
 
     public void inOrderTraversal(Node<E> tempRoot) {
+        if (tempRoot != null) {
 
+        }
     }
 }
